@@ -29,6 +29,11 @@ function calculatePremium() {
     const financialStability = document.getElementById('financial-stability').value;
     const claimsHistory = document.getElementById('claims-history').value;
 
+    console.log('Company Size:', companySize);
+    console.log('Industry Risk:', industryRisk);
+    console.log('Financial Stability:', financialStability);
+    console.log('Claims History:', claimsHistory);
+
     if (claimsHistory === 'More than 25') {
         alert("Blocked: Too many claims");
         return;
@@ -42,5 +47,6 @@ function calculatePremium() {
         claimsHistoryMod[claimsHistory]
     );
 
+    console.log('Calculated Premium:', premium);
     document.getElementById('result').textContent = `Calculated Premium: $${premium.toFixed(2)}`;
 }
