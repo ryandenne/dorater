@@ -11,9 +11,10 @@ const industryRiskMod = {
 };
 
 const financialStabilityMod = {
-    'Good': 1.000,
+    'Poor': 1.650,
     'Average': 1.100,
-    'Poor': 1.650
+    'Good': 1.000,
+    'Excellent': 0.950,
 };
 
 const claimsHistoryMod = {
