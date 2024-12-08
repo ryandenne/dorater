@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: hsl(0, 0%, 83%);
+    background-color: hsl(0, 0%, 83%); !important
     display: flex;
     flex-direction: column;
     justify-content: space-between;
