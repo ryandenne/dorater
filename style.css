@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #f0f8ff
+    background-color: #f0f8ff;
 }
 header { 
     display: flex; 
@@ -10,7 +10,7 @@ header {
 .logo { 
     width: 50px; 
     height: 50px; 
-    margin-right: 20px
+    margin-right: 20px;
 }
 
 h1 {
