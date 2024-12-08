@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: hsl(0, 0%, 83%); !important
+    background-color: #f5f5f5; /* Light neutral background color */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,6 +33,10 @@ h1 {
 
 form {
     margin-bottom: 20px;
+    background-color: #ffffff; /* White background for form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for card effect */
 }
 
 label {
@@ -59,6 +63,7 @@ button {
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for button */
 }
 
 button:hover {
