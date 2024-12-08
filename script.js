@@ -30,7 +30,7 @@ function calculatePremium() {
     const claimsHistory = document.getElementById('claims-history').value;
 
 // Assuming ClaimHistory is a number respresenting the number of claims
-if (claimsHistory > 25) {
+if (claimsHistory ='More than 25') {
     alert("Blocked: Too many claims");
     return;
 }
