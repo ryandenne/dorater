@@ -1,3 +1,4 @@
+/* General Reset */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -5,13 +6,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    min-height: 100vh; /* Ensure full height coverage */
 }
 
+/* Header Styling */
 header {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    padding: 10px 0;
 }
 
 .logo {
@@ -20,57 +23,85 @@ header {
     margin: 0 auto; /* Center horizontally */
 }
 
+/* Footer Styling */
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #e9ecef; /* Light gray footer background */
+    color: #555;
+    font-size: 0.9em;
+    border-top: 1px solid #ddd;
 }
 
+/* Typography */
 h1 {
     color: #333;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
+/* Form Styling */
 form {
     margin-bottom: 20px;
     background-color: #ffffff; /* White background for form */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for card effect */
+    max-width: 500px; /* Center and limit form width */
+    margin: 0 auto;
 }
 
 label {
     display: block;
     margin-top: 10px;
+    font-weight: bold;
+    color: #333;
 }
 
-select {
-    width: 100%;
+select,
+button {
+    display: block;
+    width: 100%; /* Full width for better alignment */
     padding: 10px;
-    margin-top: 5px;
     font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Dropdown Styling */
+select {
     background-color: #e0f7fa;
     border: 1px solid #007BFF;
-    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
+select:focus {
+    background-color: #d1f0f4;
+    outline: none;
+    border-color: #0056b3;
+}
+
+/* Button Styling */
 button {
-    margin-top: 20px;
-    padding: 10px 20px;
     background-color: #007BFF;
     color: white;
     border: none;
     cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for button */
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
     background-color: #0056b3;
+    transform: scale(1.05); /* Add a slight hover effect */
 }
 
+/* Result Text */
 #result {
     font-size: 1.2em;
     color: #333;
+    text-align: center;
+    margin-top: 20px;
 }
