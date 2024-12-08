@@ -29,6 +29,12 @@ function calculatePremium() {
     const financialStability = document.getElementById('financial-stability').value;
     const claimsHistory = document.getElementById('claims-history').value;
 
+// Assuming ClaimHistory is a number respresenting the number of claims
+if (claimsHistory > 25) {
+    alert("Blocked : Too many claims");
+    return;
+}
+
     const basePremium = 1000;
     const premium = basePremium * (
         companySizeMod[companySize] *
