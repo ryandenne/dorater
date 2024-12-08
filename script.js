@@ -18,9 +18,9 @@ const financialStabilityMod = {
 };
 
 const claimsHistoryMod = {
-    'None': 1.000,
-    'Few': 1.115,
-    'Many': 1.455
+    'Less than 10': 1.000,
+    'Less than 20': 1.115,
+    'More than 25': 1.455
 };
 
 function calculatePremium() {
