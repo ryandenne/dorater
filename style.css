@@ -2,6 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
     background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 header {
@@ -11,9 +15,9 @@ header {
 }
 
 .logo {
-    width: 500px;
-    height: auto;
-    margin-right: 0 auto;
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center horizontally */
 }
 
 footer {
@@ -21,7 +25,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-]
+}
 
 h1 {
     color: #333;
