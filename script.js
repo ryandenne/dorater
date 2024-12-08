@@ -20,7 +20,7 @@ const financialStabilityMod = {
 const claimsHistoryMod = {
     'Less than 10': 1.000,
     'Less than 20': 1.115,
-    'More than 25': 1.455
+    'More than 25': 'Blocked'
 };
 
 function calculatePremium() {
