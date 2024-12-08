@@ -1,2 +1,2 @@
 # dorater
-D&amp;O Insuranc Rater
+D&amp;O Insurance Rater
