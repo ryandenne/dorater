@@ -1,6 +1,16 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: #f0f8ff
+}
+header { 
+    display: flex; 
+    align-items: 
+        center; margin-bottom: 20px; } 
+.logo { 
+    width: 50px; 
+    height: 50px; 
+    margin-right: 20px
 }
 
 h1 {
@@ -18,7 +28,11 @@ label {
 
 select {
     width: 100%;
-    padding: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    background-color: #e0f7fa;
+    border: 1px solid #007BFF;
     margin-top: 5px;
 }
 
@@ -29,6 +43,8 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
 }
 
 button:hover {
