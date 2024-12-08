@@ -11,7 +11,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* add this line to space out the header*/
+    justify-content: space-between; /* Space out header elements */
     margin-bottom: 20px;
 }
 
@@ -20,14 +20,14 @@ header {
 }
 
 #address { 
-   width: 400px; /* Adjust the width as needed */
+    width: 400px; /* Adjust the width as needed */
 }
 
 .logo {
     width: 200px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
-    margin: 0;
-    align-self: flex-start;
+    margin: 0; /* Remove auto margin */
+    align-self: flex-start; /* Align the logo to the top */
 }
 
 footer {
@@ -69,7 +69,7 @@ button {
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*subtle shadow for button
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for button */
 }
 
 button:hover {
