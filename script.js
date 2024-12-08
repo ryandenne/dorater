@@ -31,7 +31,7 @@ function calculatePremium() {
 
 // Assuming ClaimHistory is a number respresenting the number of claims
 if (claimsHistory > 25) {
-    alert("Blocked : Too many claims");
+    alert("Blocked: Too many claims");
     return;
 }
 
